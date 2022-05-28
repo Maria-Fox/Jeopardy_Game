@@ -1,0 +1,65 @@
+body {
+  background-color: #b7b9dbd2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+table,
+td,
+th {
+  border: 3px solid black;
+  padding: 20px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#header {
+  padding: 15px;
+  margin: 5px;
+  background-color: rgb(116, 126, 214);
+}
+
+#jeopardy {
+  text-align: center;
+  font-size: 9pt;
+  background-color: rgba(148, 152, 228, 0.9);
+  color: white;
+  border-collapse: collapse;
+}
+
+#tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+#restart {
+  display: block;
+  position: relative;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 112px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(169, 149, 216);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+#loading {
+  font-size: 6rem;
+  color: white;
+}
